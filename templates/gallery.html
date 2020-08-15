@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+{% load static %}
+<!--
+	Multiverse by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>gallery</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="/"><strong>Creative Secret</strong> </a></h1>
+						<nav>
+							<ul>
+								<li><a href="#footer" class="icon solid fa-info-circle
+									">About</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+
+			
+					<div id="main">
+						<!--	{% for gal1 in gal %} 
+						<article class="thumb">
+							<a href="{{gal1.img.url}}" class="image"><img src="{{gal1.img.url}}" alt="" /></a>
+							<h2>{{gal1.G_heading}}</h2>
+							<p>{{gal1.G_desc}}</p>
+						</article> 
+					 {% endfor %}-->
+						
+				 	<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery01.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery01.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery02.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery02.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery03.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery03.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery04.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery04.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'images/fulls/gallery05.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery05.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery06.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery06.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery07.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery07.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery08.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery08.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						<article class="thumb">
+							<a href="{% static 'imagess/fulls/gallery09.jpg' %}" class="image"><img src="{% static 'imagess/thumbs/gallery09.jpg' %}" alt="" /></a>
+							<h2></h2>
+							<p></p>
+						</article>
+						
+					</div> 
+					
+				<!-- Footer -->
+					<footer id="footer" class="panel">
+						<div class="inner split">
+							<div>
+								<section>
+									<h2>Magna feugiat sed adipiscing</h2>
+									<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
+								</section>
+								<section>
+									<h2>Follow me on ...</h2>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</section>
+								<p class="copyright">
+									&copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
+								</p>
+							</div>
+							<div>
+								<section>
+									<h2>Get in touch</h2>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="field half">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+											<div class="field">
+												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+							</div>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.poptrox.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/mains.js' %}"></script>
+
+	</body>
+</html>
